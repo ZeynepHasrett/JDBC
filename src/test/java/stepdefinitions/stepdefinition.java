@@ -2,6 +2,7 @@ package stepdefinitions;
 
 import io.cucumber.java.en.*;
 import utilities.ConfigReader;
+import utilities.ReusableMethods;
 
 import javax.xml.transform.Result;
 import java.io.ObjectInputFilter;
@@ -37,6 +38,8 @@ public class stepdefinition {
 
         resultSet.next();
         System.out.println(resultSet.getInt(1));
+
+
 
     }
 
