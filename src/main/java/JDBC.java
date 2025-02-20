@@ -26,7 +26,7 @@ public class JDBC {
 
         // 1. ADIM JDBC Surucusunu Yukleme
 
-        Class.forName("com.mysql.cj.jdbc.Driver");
+        Class.forName("com.mysql.cj.jdbc.Driver"); // Type 4
 
 
         // 2. ADIM Veritabani Baglantisi Kurma (Connection)
