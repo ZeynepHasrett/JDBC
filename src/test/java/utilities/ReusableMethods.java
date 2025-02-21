@@ -15,9 +15,9 @@ public class ReusableMethods {
 
     public static void createConnection(){
 
-        String URL = ConfigReader.getProperty("URL");
-        String USERNAME = ConfigReader.getProperty("USERNAME");
-        String PASSWORD = ConfigReader.getProperty("PASSWORD");
+        String URL = ConfigReader.getProperty("url");
+        String USERNAME = ConfigReader.getProperty("username");
+        String PASSWORD = ConfigReader.getProperty("password");
 
         try {
             connection = DriverManager.getConnection(URL,USERNAME,PASSWORD);
